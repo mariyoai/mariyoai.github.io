@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariyo - AI Outfit Generator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">MARIYO</div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#generator">Generator</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="glass-card">
+          <h1>Transform Your Style with AI</h1>
+          <p>Upload any piece of clothing and let our AI generate the perfect complete outfit for you.</p>
+          <a href="#generator" class="cta-button">Try Now</a>
+        </div>
+      </section>
+
+      <section id="generator" class="generator-section">
+        <div class="section-content">
+          <h2>AI Outfit Generator</h2>
+          <p>Upload your clothing item and watch as our AI creates a stunning outfit around it.</p>
+          
+          <div class="closet-container">
+            <div class="modern-closet">
+              <div class="shelf"></div>
+              <div class="shelf"></div>
+              <div class="shelf"></div>
+              <div class="image-form">
+                <h3>Upload Your Item</h3>
+                <div class="form-group">
+                  <label for="file-input">Upload Image:</label>
+                  <input type="file" id="file-input" accept="image/*">
+                </div>
+                <div class="form-group">
+                  <label for="url-input">Image URL:</label>
+                  <input type="url" id="url-input" placeholder="Enter image URL">
+                </div>
+                <div class="preview-container">
+                  <img id="preview" src="" alt="" style="display: none;">
+                </div>
+              </div>
+              <div class="door">
+                <span class="material-symbols-outlined door-handle">door_open</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="section-content">
+          <h2>How It Works</h2>
+          <div class="steps-container">
+            <div class="step">
+              <span class="material-symbols-outlined">upload</span>
+              <h3>Upload</h3>
+              <p>Share your clothing item through our interactive closet</p>
+            </div>
+            <div class="step">
+              <span class="material-symbols-outlined">psychology_alt</span>
+              <h3>Process</h3>
+              <p>Our AI analyzes your item's style, color, and pattern</p>
+            </div>
+            <div class="step">
+              <span class="material-symbols-outlined">style</span>
+              <h3>Generate</h3>
+              <p>Receive a complete outfit suggestion that matches perfectly</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>MARIYO</h3>
+          <p>Revolutionizing fashion with AI technology</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#generator">Generator</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Email: info@mariyo.ai</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Mariyo. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
